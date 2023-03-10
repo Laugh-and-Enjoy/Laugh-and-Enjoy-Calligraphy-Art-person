@@ -282,7 +282,19 @@ h1 {
 
 }
 
-@media (min-width: 800px) {
+@media (max-width: 600px) {
+  .main h1 {
+    font-size: 18px;
+  }
+  .text2 h2 {
+    font-size: 16px;
+  }
+  .text .text2 p {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 600px) {
   .text {
     display: flex;
   }
